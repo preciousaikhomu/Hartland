@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+nav{
+    background: green;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    position: relative;
+}
+.label .logo {
+    width: 40px;
+    height: 40px;
+    padding: 0px 100px;
+    margin-left: 70px;
+}
+nav .img img{
+    width: 200px;
+    margin-left: 70px;
+}
+nav ul{
+    display: flex;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: green;
+    transition: 2s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background: green;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: black;
+  }
+  nav ul li a button{
+    padding: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: green;
+}
+.img-2 img{
+    width: 100%;
+    height: 100vh;
+}
+.banner{
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    color: white;
+    left: 20%;
+    align-items: center;
+}
+.banner h1{
+    font-size: 75px;
+    text-align: center;
+}
+.banner p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.but{
+    margin-top: 30px;
+}
+.but .btu{
+    background: none;
+    padding: 10px 15px;
+    color: white;
+    border-color: white;
+}
+.but .byt{
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid green;
+    margin-left: 10px;
+}
+.pan{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.tion img{
+    width: 600px;
+    margin-left: 40px;
+}
+.tion-2{
+  margin-top: -510px;
+}
+.one p{
+    font-size: 20px;
+    margin-top: 75px;
+}
+.btn{
+    margin-left: 120px;
+    margin-top: 20px;
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 120px;
+}
+.two-2 h1{
+    text-align: center;
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.six{
+    margin-left: 40px;
+}
+.three{
+    display: block;
+}
+.four img{
+    width: 70%;
+}
+.five{
+    margin-top: 20px;
+}
+.five p{
+    margin-top: 20px;
+}
+.sion{
+    margin-top: 50px;
+}
+.sion img{
+    width: 100%;
+    height: 747px;
+    object-fit: cover;
+}
+.fourteen{
+    margin-top: -650px;
+    align-items: center;
+    text-align: center;
+}
+.fifteen h1{
+    color: white;
+    font-size: 50px;
+}
+.fifteen h4{
+    color: white;
+    font-size: 32px;
+    margin-top: 18px;
+}
+.title{
+    margin-top: 80px;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input{
+    padding: 7px 850px 7px 8px;
+    border-radius: 3px;
+    color: white;
+}
+textarea{
+    padding: 15px 870px 10px 12px;
+    border-radius: 3px;
+    background: none;
+    border: 6px solid gray;
+    color: white;
+}
+.sion .fourteen .fifteen .title .name input{
+    background: none;
+    border: 6px solid gray;
+}
+.btn-three{
+    background: none;
+    color: white;
+    margin-top: 30px;
+    padding: 15px 250px;
+    border: 6px solid gray;
+}
+footer {
+    padding: 20px 80px;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 0px;
+    display: flex;
+  }
+  .fifty {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 90px;
+    align-items: top;
+    justify-content: space-between;
+  }
+  .fifty .sixty h4 {
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 10px;
+    color: black;
+  }
+  .fifty .sixty textarea{
+    color: black;
+  }
+  .fifty .sixty p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+  }
+  .fifty .sixty li {
+    margin-top: 20px;
+    color: black;
+    list-style: none;
+  }
+  .fifty .sixty {
+    flex: 1;
+    text-align: left;
+    margin-right: 50px;
+  }
+  .fifty .sixty i {
+    font-size: 16px;
+    color: black;
+    margin-top: 30px;
+  }
+  .fifty .sixty a {
+    padding: 5px 6px;
+    margin-right: 10px;
+    border: 1px black;
+    border-radius: 50%;
+  }
+  .fifty .sixty:nth-child(2) {
+    margin-right: 0;
+  }
+  .fifty .sixty input {
+    padding: 10px 30px;
+    margin-top: 10px;
+  }
+  .fifty .sixty button {
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 25px;
+    margin-top: 10px;
+  }
+  .last p {
+    color: black;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .last {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    justify-content: space-between;
+  }
+  .last i {
+    color: black;
+    margin-top: 20px;
+    padding: 0px 10px;
+    margin-right: 30px;
+  }
+.why{
+    background-color: #c9f1c2;
+    margin-top: -20px;
+}
+.why h1{
+    text-align: center;
+}
+.why-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding: 70px 100px;
+}
+.why-3{
+    background-color: white;
+    border-radius: 9px;
+    padding: 40px 60px;
+}
+.why-3 h2{
+    padding-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+.why h1{
+    padding-top: 90px;
+    font-size: 30px;
+}
+.why-3 i{
+    font-size: 50px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    color: green;
+    align-items: center;
+    text-align: center;
+}
+
+/****login****/
+.king{
+    width: 100%;
+    height: 665px;
+}
+.queen{
+    display: flex;
+    background-color: white;
+    margin: 30px 140px;
+    width: 80%;
+    margin-bottom: -30px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.queen-2 img{
+    width: 120px;
+    margin-left: 10px;
+}
+.queen-4{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: 50px;
+}
+.in{
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.in-2{
+  padding: 7px 220px 7px 8px;
+  border-radius: 3px;
+  color: white;
+  border-radius: 17px;
+  margin-top: 10px;
+}
+.queen-4 h1{
+    font-size: 40px;
+}
+.queen-4 button{
+    padding: 10px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.eye{
+    padding: 10px;
+}
+.eye p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.eye i{
+    background-color: white;
+    color: green;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: green 2px solid;
+}
+.queen-4 input{
+    margin-right: -40px;
+}
+.queen-3{
+    background-color: green;
+    margin-left: 80px;
+    padding: 120px;
+}
+.queen-3 h1{
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+.queen-3 p{
+    color: white;
+    text-align: center;
+    font-weight: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.queen-3 a{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+ .img-9 img{
+    width: 100%;
+    height:100vh;
+}
+.banne{
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    color: white;
+    left: 100px;
+    align-items: center;
+}
+.banne h1{
+    font-size: 75px;
+    text-align: center;
+}
+.sack{
+    margin-top: 100px;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+.sack h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.sack p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.sack-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 55px;
+    margin-bottom: 30px;
+}
+.sack-2{
+    display: block;
+    text-align: center;
+}
+.sack-2 p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sack-2 button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+}
+.sack-2 button a{
+    color: white;
+    text-decoration: none;
+}
+.sign li a i{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* media query */
+@media (max-width: 1038px){
+    .label .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1038px){
+  
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: green;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        align-items: center;
+        padding-top: 10px;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        margin-top: 70px;
+        line-height: 10px;
+        align-items: center;
+        text-align: center;
+        top: 10px;
+        margin-left: -10px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    /* a:hover{
+        background: white;
+        color: green;
+    } */
+    #check:checked ~ ul {
+        left: 0;
+        display: block;
+        position: absolute;
+        top: 10;
+        z-index: 99999;
+    }
+    .dropdown-content{
+        margin-top: -22px;
+    }
+    .banner{
+        align-items: center;
+        text-align: center;
+    }
+    .banner h1{
+        margin-left: -92px;
+    }
+    .jbl{
+        display: none;
+    }
+    .banner p{
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+    .but{
+        margin-left: -50px;
+        margin-top: 18px;
+    }
+    .pan{
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-bottom: 40px;
+    }
+    .one{
+        align-items: center;
+        text-align: left;
+        margin-top: -80px;
+    }
+    .tion{
+        margin-left: 10px;
+        margin-right: -60px;
+    }
+    .tion img{
+        width: 400px;
+    }
+    .tion-2 img{
+        width: 400px;
+        margin-top: 170px;
+    }
+    .why-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+    .why-3{
+        display: block;
+        align-items: center;
+    }
+    .two{
+        margin-left: 120px;
+    }
+    .four img{
+        width: 360px;
+    }
+    .sion img{
+        width: 100%;
+    }
+    .fifteen h1{
+        font-size: 40px;
+    }
+    .fifteen h4{
+        font-size: 25px;
+    }
+   input{
+    padding: 7px 750px 7px 8px;
+   }
+   textarea{
+    padding: 15px 772px 10px 12px;
+   }
+   .fifty{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: -66px;
+    align-items: center;
+    margin-right: -50px;
+    padding: 10px;
+   }
+   .sixty img{
+    width: 100%;
+   }
+   .sixxty{
+    margin-left: 10px;
+   }
+   .fifty .sixty{
+    margin-right: 15px;
+   }
+   .fifty .sixty:nth-child(2){
+    margin-right: -10px;
+    margin-left: 20px;
+   }
+   .border{
+    width: 190px;
+   }
+   .last{
+    padding-left: 20px;
+    justify-content: space-evenly;
+   }
+   .last p{
+    font-size: 16px;
+   }
+}
+
+
+
+@media (max-width: 375px){
+    nav .img img{
+        width: 150px;
+        margin-left: 10px;
+        margin-right: -10px;
+    }
+    nav ul li a button{
+        margin-left: -90px;
+    }
+    .img-2 img{
+        height: 100vh;
+    }
+    .banner h1{
+        font-size: 50px;
+        padding-left: 25px;
+        margin-top: -20px;
+        text-align: center;
+    }
+    .banner p{
+        margin-left: -30px;
+        margin-top: 5px;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .pan{
+        display: block;
+        margin-top: 70px;
+    }
+    .one p{
+        text-align: left;
+        margin-left: -25px;
+        margin-right: -98px;
+        padding-top: 40px;     
+    }
+    .btn{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .tion img{
+        width: 310px;
+        margin-left: -45px;
+        margin-right: 25px;
+    }
+    .tion-2 img{
+        width: 300px;
+        margin-top: 260px;
+    }
+    .why-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        padding: 20px ;
+    }
+    .why-3 h2{
+        font-size: 30px;
+    }
+    .why-3 p{
+        font-size: 20px;
+        padding-left: -20px;
+    }
+    .two{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 25px;
+    }
+    .four img{
+        width: 330px;
+    }
+    .five h1{
+        font-size: 25px;
+    }
+    .five p{
+        padding-right: 0px;
+        font-size: 17px;
+    }
+    .lean img{
+        margin-left: -40px;
+    }
+    .five .planc{
+        margin-left: -35px;
+    }
+    .planc h1{
+        margin-left: -36px;
+    }
+    .fifteen h1{
+        font-size: 22px;
+    }
+    .fifteen h4{
+        font-size: 16px;
+        padding: 0px 10px;
+    }
+    input{
+        padding: 7px 120px 7px 8px;
+    }
+    textarea {
+        padding: 15px 145px 10px 12px;
+    }
+    .jos{
+        padding: 15px 50px;
+    }
+    .fifty{
+         display: grid;
+         grid-template-columns: 1fr;
+         margin-top: 60px;
+    }
+    .sixty img{
+        width: 200px;
+    }
+    .fifty .sixty:nth-child(2){
+        margin-top: -30px;
+    }
+    .sixxty{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .sixty h4{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .last {
+        display: block;
+        margin-bottom: 20px;
+        align-items: left;
+        padding: 12px;
+        text-align: left;
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+    .last p{
+        margin-left: -12px;
+    }
+}
